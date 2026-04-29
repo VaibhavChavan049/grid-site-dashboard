@@ -44,7 +44,7 @@ grid_dashboard/
 
 ## ⚡ Quick Start (5 minutes)
 
-### Step 1 — Clone & Install
+### Step 1 : Clone & Install
 
 ```bash
 git clone https://github.com/YOUR_USERNAME/grid-site-dashboard.git
@@ -56,7 +56,7 @@ source venv/bin/activate        # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-### Step 2 — Generate Data
+### Step 2 : Generate Data
 
 ```bash
 python data/generate_data.py
@@ -66,14 +66,14 @@ This creates:
 - `data/grid_sites.csv` — 60 grid sites with scoring data
 - `data/load_profiles.csv` — 14,400 hourly load records
 
-### Step 3 — Launch (Two Terminals)
+### Step 3 : Launch (Two Terminals)
 
-**Terminal 1 — Backend API:**
+**Terminal 1 : Backend API:**
 ```bash
 uvicorn backend.api:app --reload --port 8000
 ```
 
-**Terminal 2 — Dashboard:**
+**Terminal 2 : Dashboard:**
 ```bash
 streamlit run frontend/dashboard.py
 ```
@@ -89,7 +89,7 @@ Then open **http://localhost:8501** in your browser. ✅
 
 ## 🗄 Database
 
-### SQLite (Default — No Setup Needed)
+### SQLite (Default = No Setup Needed)
 Works out of the box. Data is stored in `grid_sites.db`.
 
 ### PostgreSQL (Production)
