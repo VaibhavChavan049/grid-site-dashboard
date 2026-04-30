@@ -161,4 +161,4 @@ Score bands: **Excellent ≥85 · Good ≥70 · Moderate ≥55 · Low ≥40 · C
 
 ---
 
-*Built as part of Powertown Software Development Internship application · April 2026*
+*· April 2026*
